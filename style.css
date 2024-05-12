@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.container{
+    margin: 100px;
+    display: inline-flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+}
+
+.header-content{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+
+}
+.logo{
+    height: 60px;
+}
+.logo h2{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.header-content .tabs ul{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+.header-content .tabs ul li {
+    list-style: none;
+    float: right;
+    align-items: center;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.bar-icon, .close-icon{
+    display: none;
+    margin-left: 1500px;
+}
+@media only screen and (max-width:375px){
+    .bar-icon{
+        display: block;
+        cursor: pointer;
+        margin-left: -240px;
+    }
+    .close-icon{
+        display: none;
+        cursor: pointer;
+        margin-left: -240px;
+    }
+    .tabs ul li{
+        display: none;
+        cursor: pointer;
+    
+    }
+}
+ul li a:hover {
+    color: rgb(235, 137, 24); 
+    transition: 0s ease-in-out;   
+}
+.header-content .tabs ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+@media only screen and (max-width:375px){
+    .section1{
+        display: flex;
+        flex-direction:column;
+
+    }
+    
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    gap: -70px;
+}
+@media only screen and (max-width:375px){
+    .image{
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+    }
+    .text2 p{
+        margin-left: 350px;
+    }
+    .text2 button{
+        margin-left: 350px;
+    }
+}
+.image .text1 {
+margin-top: 10px;
+}
+.image .text1 h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text1 img{
+    height: 200px;
+    width: 590px;
+}
+.image .text2{
+    line-height: 25px;
+    margin-top: 215px;
+    margin-left: -350px;
+}
+.image .text2 button{
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    background-color: rgb(194, 44, 17);
+    outline: none;
+    cursor: pointer;
+    border:none;
+}
+.image .text2 button:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.news{
+background-color: black;
+margin-top: 10px;
+}
+.news1{
+    background-color: hsla(200, 100%, 1%, 0.884);
+    line-height: 25px;
+    width: 350px;
+}
+.news1 h3{
+    color: orange;
+    font-size: 30px;
+    background-color: rgb(7, 7, 7);
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.news1 h2{
+    background-color: rgb(7, 7, 7);
+    font-size: 20px;
+    color: white;
+    margin-top: 9PX;
+}
+.news1 p1{
+    color: white;
+    background-color: rgb(7, 7, 7);
+}
+.section2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: -5px;
+}
+@media only screen and (max-width:375px){
+    .section2{
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+.news-container{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.news-container .image img{
+    height: 91px;
+}
+.image-text{
+    width: 200px;
+    line-height: 23px;
+}
+.image-text h2{
+    font-weight: bold;
+    opacity:40%;
+    font-size:23px;
+}
+
+p{
+    opacity: 78%;
+}
